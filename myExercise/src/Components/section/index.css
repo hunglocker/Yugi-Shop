@@ -1,0 +1,32 @@
+.mainBlog {
+    text-align: center;
+}
+.high6 {
+    margin-top: 9px;
+    color: firebrick;
+}
+.cardBody {
+  border-color: white;
+}
+.card {
+    border-color: firebrick;
+}
+.update {
+    text-align: center;
+}
+.btn3 {
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.btn3:hover {
+    background-color: firebrick;
+    color: white;
+}
+.btn4 {
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+.btn4:hover {
+    background-color: firebrick;
+    color: white;
+}

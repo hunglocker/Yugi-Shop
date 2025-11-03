@@ -1,0 +1,22 @@
+#Nav .list {
+    list-style: none;
+    display: flex;
+}
+#Nav .list a {
+    text-decoration: none;
+    color: white;
+    margin-right: 65px;
+
+}
+#Nav {
+    background-color: black;
+    display: flex;
+}
+#nav .list li {
+    display: flex;
+}
+
+.list li:hover a {
+    
+    transform: translateY(-6px)
+}

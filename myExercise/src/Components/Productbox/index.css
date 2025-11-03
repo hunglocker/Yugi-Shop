@@ -1,0 +1,57 @@
+.cardHeader {
+    padding: 0;
+
+}
+.card {
+    margin-bottom: 20px;
+    border-color: #960018;
+}
+.main {
+    text-align: center;
+}
+.text {
+    color: #960018;
+}
+.btn {
+    border: 5px;
+    margin-bottom: 2px;
+}
+.btn:hover {
+    color: white;
+    background-color: #960018;
+}
+.mainly {
+    position: relative;
+
+
+}
+.icon {
+    color: white;
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    right: 300px;
+    top: 50%
+    
+    
+    
+}
+.card:hover .icon {
+  display: block;
+}
+
+
+.mainer {
+    position: relative;
+}
+.iconing {
+    position: absolute;
+    right: 200px;
+    color: white;
+    top: 50%;
+    font-size: 30px;
+    display: none;
+}
+.card:hover .iconing {
+    display: block;
+}

@@ -1,0 +1,12 @@
+ .texting {
+   max-width: 800px;
+   margin: 20px auto;
+ }
+.center-img {
+    display: block;
+    margin: 0 auto;
+    /* cho ảnh ra giữa */
+}
+#main {
+    text-align: center;
+}

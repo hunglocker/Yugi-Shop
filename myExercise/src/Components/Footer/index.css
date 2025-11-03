@@ -1,0 +1,60 @@
+.Contact-list {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.Contact-list li {
+  display: flex;
+  align-items: center; /* căn giữa icon và chữ theo chiều dọc */
+  gap: 10px; /* khoảng cách giữa icon và text */
+  margin-bottom: 8px; /* cách nhau giữa các dòng */
+  font-size: 16px;
+}
+.iconer {
+
+    margin-bottom: 20px;
+}
+.policy-list {
+     list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+.policy-list li {
+    
+    align-items: center;
+    margin-bottom: 8px;
+}
+.policy-list a {
+    text-decoration: none;
+    color: white;
+}
+.instruct-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.instruct-list a {
+    text-decoration: none;
+    color: white;
+}
+.instruct-list li {
+    align-items: center;
+    margin-bottom: 8px;
+     font-size: 16px;
+}
+.social-items {
+    list-style: none;
+     display: flex;
+     gap: 10px;
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+ justify-content: center; 
+ /* căn giữa phần tử con theo chiều ngang */
+    
+}
+.social-items a {
+    color: white;
+}
+
