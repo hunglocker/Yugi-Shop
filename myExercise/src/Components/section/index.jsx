@@ -17,7 +17,6 @@ function Section() {
                <h1 style={{color: "#800000"}}>Các Tộc Bài</h1>
                <div className='container'>
                    <div className='row'>
-                       
                        <div className='col-12 col-md-6'>
                               <div className='card'>
                                 
