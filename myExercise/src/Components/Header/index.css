@@ -1,34 +1,40 @@
-
 #Header .list {
     list-style: none;
     display: flex;
-  
+
 }
+
 #Header .list a {
     text-decoration: none;
     color: white;
     margin-left: 40px;
 }
+
 #Header {
     background-color: #A10000;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    
+
 
 }
+
 #Header .list li {
     line-height: 53.6px;
     display: flex;
 }
+
 .input {
     position: relative;
     border-radius: 5px;
 }
- .fine{
+
+.fine {
     position: absolute;
     right: 4px;
     top: 40%
 }
+
 .rounded-circle {
     margin-left: 5px;
     margin-bottom: 2px;

@@ -1,8 +1,10 @@
+import Mainproduct from "../mainproduct";
+
 
 function Product() {
-    return(
+    return (
         <>
-          
+            <Mainproduct />
         </>
     )
 }

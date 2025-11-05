@@ -1,0 +1,38 @@
+.cardHeader img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.propscolor {
+    color: orange;
+}
+
+.cardBody {
+    padding: 5px;
+}
+
+.cart,
+.buy {
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px;
+    margin-bottom: 20px;
+    margin-left: 13px;
+}
+
+.cart:hover {
+    background-color: #FFA500;
+    color: white;
+}
+
+.buy:hover {
+    background-color: #2ECC71;
+    color: white;
+
+}

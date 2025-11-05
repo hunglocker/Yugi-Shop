@@ -1,32 +1,60 @@
 .mainBlog {
     text-align: center;
 }
+
 .high6 {
     margin-top: 9px;
     color: firebrick;
 }
+
 .cardBody {
-  border-color: white;
+    border-color: white;
+
 }
+
 .card {
-    border-color: firebrick;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 15px;
 }
+
 .update {
     text-align: center;
 }
+
 .btn3 {
+    width: 100px;
+    height: 33px;
     border-radius: 10px;
-    margin-bottom: 2px;
+    border: none;
+    box-shadow: 0 2px;
+    margin-bottom: 20px;
+
+
 }
+
+.btn4 {
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px;
+    margin-bottom: 20px;
+}
+
 .btn3:hover {
     background-color: firebrick;
     color: white;
 }
-.btn4 {
-    border-radius: 10px;
-    margin-bottom: 2px;
-}
+
 .btn4:hover {
     background-color: firebrick;
     color: white;
+
+
+}
+
+.container {
+    margin-bottom: 50px;
 }

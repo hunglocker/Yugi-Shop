@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "Obelisk the Tormentor",
+    "atk": 4000,
+    "price": 328000,
+    "description": "Vị Thần Ai Cập đại diện cho sức mạnh tuyệt đối, nghiền nát mọi kẻ thù bằng nắm đấm thánh.",
+    "image": "./img/obelik.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Five-Headed Dragon",
+    "atk": 5000,
+    "price": 260000,
+    "description": "Rồng năm đầu đại diện cho năm nguyên tố, miễn nhiễm với hầu hết đòn tấn công nguyên tố  ",
+    "image": "./img/five.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Blue-Eyes White Dragon",
+    "atk": 3000,
+    "price": 4500000,
+    "description": "Rồng huyền thoại mạnh nhất, sở hữu hơi thở ánh sáng có thể thiêu rụi mọi kẻ thù",
+    "image": "./img/kaibaland.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chaos Emperor Dragon",
+    "atk": 3000,
+    "price": 350000,
+    "description": "Rồng hỗn mang hủy diệt toàn bộ chiến trường, mang đến kết thúc cho mọi thứ.",
+    "image": "./img/chaos.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Elemental HERO Stratos",
+    "atk": 1800,
+    "price": 150000,
+    "type": "Warrior / Effect",
+    "description": "Chiến binh anh hùng có thể phá hủy ma pháp và triệu hồi đồng đội từ bộ bài.",
+    "image": "./img/stratos.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dark Magician Girl",
+    "atk": 2000,
+    "price": 300000,
+    "type": "Spellcaster / Effect",
+    "description": "Phù thủy học trò của Dark Magician, càng mạnh hơn khi đồng đội ngã xuống.",
+    "image": "./img/Magician.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Archfiend Emperor",
+    "atk": 3000,
+    "price": 160000,
+    "type": "Machine / Effect",
+    "description": "Máy chiến đấu Cyber có thể biến đồng đội thành vật liệu hợp thể.",
+    "image": "./img/empor.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Red-Eyes Black Chick",
+    "atk": 800,
+    "price": 500000,
+    "type": "Dragon / Effect",
+    "description": "Rồng non có thể tiến hóa thành Red-Eyes Black Dragon khi được triệu hồi đặc biệt.",
+    "image": "./img/kidred.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Breaker the Magical Warrior",
+    "atk": 1600,
+    "price": 490000,
+    "type": "Spellcaster / Effect",
+    "description": "Pháp sư có thể phá hủy một lá phép hoặc bẫy bằng sức mạnh viên đá ma thuật.",
+    "image": "./img/breaking.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jinzo",
+    "atk": 2400,
+    "price": 52000,
+    "type": "Machine / Effect",
+    "description": "Cyborg điều khiển năng lượng, vô hiệu hóa mọi bẫy trên sân đấu.",
+    "image": "./img/jinzo.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Dark Armed Dragon",
+    "atk": 2800,
+    "price": 180000,
+    "description": "Có thể được Triệu hồi đặc biệt khi bạn có đúng 3 quái thú DARK trong Mộ. Có thể loại bỏ quái thú DARK để tiêu diệt thẻ trên sân",
+    "image": "./img/armed.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Stardust Dragon",
+    "atk": 2500,
+    "price": 250000,
+    "description": "Khi một thẻ hoặc hiệu ứng sẽ phá hủy thẻ trên sân, bạn có thể hiến tế lá này để vô hiệu hóa và phá hủy hiệu ứng đó. Cuối lượt, Stardust trở lại sân",
+    "image": "./img/stardragon.jpg"
+  }
+]

@@ -2,29 +2,41 @@
     padding: 0;
 
 }
+
 .card {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border-color: #960018;
+    padding: 10px;
 }
+
 .main {
     text-align: center;
 }
+
 .text {
     color: #960018;
 }
+
 .btn {
-    border: 5px;
-    margin-bottom: 2px;
+    width: 100px;
+    height: 33px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 2px;
+    margin-bottom: 20px;
 }
+
 .btn:hover {
     color: white;
     background-color: #960018;
 }
+
 .mainly {
     position: relative;
 
 
 }
+
 .icon {
     color: white;
     display: none;
@@ -32,18 +44,17 @@
     font-size: 30px;
     right: 300px;
     top: 50%
-    
-    
-    
 }
+
 .card:hover .icon {
-  display: block;
+    display: block;
 }
 
 
 .mainer {
     position: relative;
 }
+
 .iconing {
     position: absolute;
     right: 200px;
@@ -52,6 +63,7 @@
     font-size: 30px;
     display: none;
 }
+
 .card:hover .iconing {
     display: block;
 }

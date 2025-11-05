@@ -4,65 +4,65 @@ import { IoSearchOutline } from "react-icons/io5";
 import { CiLogin } from "react-icons/ci";
 import { CgLogIn } from "react-icons/cg";
 import { FaPhoneAlt } from "react-icons/fa";
+import { CiShoppingCart } from "react-icons/ci";
 import './index.css'
+import { Link } from "react-router-dom";
 function Header() {
-    return(
+    return (
         <>
-        
-        <div id="Header">
-            
+
+            <div id="Header">
 
 
-             <nav className='navbar navbar-light '>
-                     <div className='container'>
-
-                      <a className='navbar-brand' href = "#" >
-                        
-                           <img className= 'rounded-circle' src='./img/logoyugi.png' alt='Logo' width={100} height={50}></img>
-                         
-                       
-                         
-                        
-                        </a>         
-                     
-            
-
-                     </div>
-                    
-                    
-                    </nav>    
+                <div className='logo'>
+                    <img src="./img/logoblue.png" alt="image" style={{ height: "50px", borderRadius: "7px", marginTop: "7px", marginLeft: "15px" }} />
+                </div>
 
 
-                  
-                  <ul className="list">
-        
-                     <li> <a href=''>Đăng ký</a></li>
-                     <li> <a href=''>Đăng nhập</a></li>
-                   
+                <div className='input'>
+                    <input style={{ marginTop: '5px', borderRadius: "7px", marginLeft: "5px", fontSize: " 20px 28px", width: "550px", height: "30px" }} type='text' placeholder='Search'></input>
+                    <IoSearchOutline className='fine' />
+
+                </div>
+
+
+
+
+
+
+                <ul className="list">
+
+                    <li>
+                        <Link to='signupper'>Đăng ký</Link>
+                    </li>
+                    <li>
+                        <Link to='loginer'>Đăng nhập </Link>
+                    </li>
+
+
+
+
                 </ul>
-                       <div className='input'>
-                            <input style={{marginTop : '20px', borderRadius: "10px", marginLeft: "5px", fontSize: "20px"}} type='text' placeholder='Search'></input>
-                              <IoSearchOutline className='fine'  />
 
-                       </div>
-             
-                       
-             
-             
-            
-            
-            
-            
-            </div>  
-               
-                
-             
-                 
-                 
-         
-         
-        
-        
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
         </>
     )
 }
