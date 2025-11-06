@@ -7,6 +7,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { CiShoppingCart } from "react-icons/ci";
 import './index.css'
 import { Link } from "react-router-dom";
+import Cart from '../Cart/Cart';
 function Header() {
     return (
         <>
@@ -30,11 +31,17 @@ function Header() {
 
 
 
+
                 <ul className="list">
+                    <li>
+                        <Cart />
+                    </li>
 
                     <li>
                         <Link to='signupper'>Đăng ký</Link>
                     </li>
+
+
                     <li>
                         <Link to='loginer'>Đăng nhập </Link>
                     </li>

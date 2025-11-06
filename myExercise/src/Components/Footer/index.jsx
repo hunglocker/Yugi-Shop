@@ -19,7 +19,7 @@ function Footer() {
 
                         <div className='col-md-4 mb-3'>
 
-                            <h5 class="text-uppercase mt-2 text-center">Liên hệ</h5>
+                            <h5 className="text-uppercase mt-2 text-center">Liên hệ</h5>
                             <ul className='Contact-list'>
                                 <li><FaMapMarkerAlt className='iconer' />334 Đ. Nguyễn Trãi, Thanh Xuân Trung, Thanh Xuân, Hà Nội  </li>
                                 <li><FaPhoneVolume /> Số điện thoại :  09674358122 </li>
